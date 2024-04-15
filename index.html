@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Tree Visualizer</title>
+    <link rel="stylesheet" type="text/css" href="./assets/main.css" />
+</head>
+
+<body>
+
+    <canvas id="canvas"></canvas>
+    <div id="panel">
+        <div class="input-group">
+            <input id="insert" type="text" />
+            <button>&gt;</button>
+            <label>Input</label>
+        </div>
+        <div class="input-group">
+            <input id="delay" type="text" />
+            <button>&gt;</button>
+            <label>Delay (ms)</label>
+        </div>
+        <button id="random">Inserta Random</button>
+        <button id="download">Descarga PNG</button>
+        <button id="download-txt">Descargar TXT</button>
+        
+        <!-- Add these buttons in the <div> under the existing buttons in index.html -->
+        <button id="preorder">Mostrar Preorder</button>
+        <button id="inorder">Mostrar Inorder</button>
+        <button id="postorder">Mostrar Postorder</button>
+        <button id="clear-all">Limpiar Todo</button>
+        <button id="open-help">Help</button>
+
+
+    </div>
+
+    <div id="help" style="display: none">
+        <h2>Binary Search Tree Visualizer</h2>
+        <ul>
+
+            <li>Utilice la entrada "Insertar" para añadir números al árbol.</li>
+            <li>Utiliza la entrada "Delay" para ralentizar o acelerar el proceso de inserción.</li>
+            <li>Mantenga pulsado el botón izquierdo del ratón y arrástrelo para mover la cámara.</li>
+            <li>Utiliza el botón "Insertar Random" para insertar un número aleatorio en el árbol.</li>
+            <li>Utiliza las teclas de flecha arriba &amp; abajo para acercar/alejar el zoom.</li>
+
+
+        </ul>
+        <div style="display: flex; justify-content: flex-end">
+            <button id="close-help">Close</button>
+        </div>
+    </div>
+
+    <a id="download-link" style="display: none"></a>
+
+    <script src="./assets/bundle.min.js"></script>
+</body>
+
+</html>
