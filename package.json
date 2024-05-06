@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WinterCore/bst-visualizer.git"
+    "url": "git+https://github.com/Ignatiuzzz/BST.git"
   },
   "keywords": [
     "bst",
@@ -20,12 +20,8 @@
     "visualizer",
     "stpes"
   ],
-  "author": "WinterCore",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/WinterCore/bst-visualizer/issues"
-  },
-  "homepage": "https://github.com/WinterCore/bst-visualizer#readme",
+
+  "homepage": "https://github.com/Ignatiuzzz/BST.git#readme",
   "devDependencies": {
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
