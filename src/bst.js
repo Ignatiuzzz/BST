@@ -1,4 +1,3 @@
-
 class Node {
     constructor(value, parent = null, left = null, right = null) {
         this.value  = value;
@@ -97,4 +96,6 @@ export default class BST {
     
     
 }
+
+export { BST, Node };
 
